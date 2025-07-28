@@ -1,17 +1,17 @@
-// Default index.html file created by Create React App
+<!-- Default index.html file created by Create React App -->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta charset="utf-8" />    <!-- Ensures page can display all kinds of text properly. UTF-8 encoding. Supports almost every character in every language -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />    <!-- rel = "icon" is the favicon. Icon that appears in browser tab. %PUBLIC_URL% refers to favicon.ico in public folder. Gets replaced with actual path when app is built -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- Site is mobile friendly. React app scales properly on phones and tablets -->
+    <meta name="theme-color" content="#000000" />    <!-- Color of address bar on mobile browsers -->
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Web site created using create-react-app"    <!-- What search engines might display under site name -->
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />  <!-- Lets users add to homescreen with icon -->
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -30,7 +30,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root"></div>    <!-- React injects entire app into this div -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
