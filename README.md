@@ -1,1 +1,1 @@
-EFSC Programming Club website
+Repo for my EFSC programming club website stuff
